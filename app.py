@@ -295,7 +295,7 @@ model_q2.load_state_dict(torch.load('model_q2.pth', map_location=device))
 st.title("Code Translator with Transformer 🎉")
 
 st.write("Welcome to the Code Translator! 🌟 Convert pseudocode to C++ or C++ to pseudocode using a Transformer model trained on the SPOC dataset. 🚀")
-st.write(f"Check out my GitHub profile: [ZainMehmood](https://github.com/ZainMehmood123) 👨‍💻")
+st.write(f"Check out my GitHub profile: [Seemal Zia](https://github.com/seemalch) 👨‍💻")
 
 tab1, tab2 = st.tabs(["Pseudocode to C++ 🌈", "C++ to Pseudocode 🌌"])
 
